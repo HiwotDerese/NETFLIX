@@ -1,0 +1,12 @@
+
+
+
+
+.backimg{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    z-index: 0;
+}

@@ -143,13 +143,14 @@
 }
 .poster{
     width: 100%;
-    height: 1000px;
+    /* height: 1000px; */
     background-color: rgb(8, 7, 7, 0.9);
     position: relative;
     top: 150px;
     border: none;
     padding-left: 3%;
     padding-top: 1%;
+    padding-bottom: 300px;
 }
 .poster h3{
     color: white;
@@ -162,6 +163,17 @@
 .posters1{
     display: flex;
     overflow: auto;
+    margin-bottom: 20px;
+}
+.posters2{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.posters3{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
 }
 
 

@@ -1,7 +1,8 @@
 .body{
     margin: 0px;
     box-sizing: border-box;
-    /* background-color: cadetblue; */
+    overflow: hidden;
+   
 
 }
 .backimg{
@@ -33,6 +34,7 @@
     /* padding: 40px; */
 }
 .container{
+    overflow: hidden;
     /* width: 100%; */
     /* min-height: 100vh; */
     /* overflow: hidden; */
@@ -139,21 +141,6 @@
 .dialogue h3{
     z-index: 0;
 }
-
-.transition{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(59, 57, 57, 0.4);
-    position: relative;
-    top: 100px;
-}
-.transition2{
-    width: 100%;
-    height: 200px;
-    background-color: rgb(31, 30, 30);
-    position: relative;
-    top: 100px;
-}
 .poster{
     width: 100%;
     height: 1000px;
@@ -162,6 +149,19 @@
     top: 150px;
     border: none;
     padding-left: 3%;
+    padding-top: 1%;
+}
+.poster h3{
+    color: white;
+}
+.poster img{
+    width: 20%;
+    margin-left: 20px;
+    /* height: 5%; */
+}
+.posters1{
+    display: flex;
+    overflow: auto;
 }
 
 

@@ -1,5 +1,6 @@
 .body{
     margin: 0px;
+    /* padding: 0px; */
     box-sizing: border-box;
     overflow: hidden;
    
@@ -47,8 +48,7 @@
     padding: 2% 3%;
     /* display: flex; */
     justify-content: space-between;
-    /* background-color: rgb(4, 3, 3);
-    opacity: 0.4; */
+    background-color: rgb(4, 3, 3, 0.7);
     z-index: 0;
 }
 .logo{
@@ -175,6 +175,23 @@
     overflow: auto;
     margin-bottom: 20px;
 }
+.posters4{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.posters5{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.content1::-webkit-scrollbar {
+        display: none;
+}
+.posters1::-webkit-scrollbar {
+    display: none;
+}
+
 
 
 

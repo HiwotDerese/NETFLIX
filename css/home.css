@@ -45,12 +45,6 @@
     font-family: "Yu Gothic";
     
 }
-.rightHeader{
-    /* z-index: 0; */
-    /* padding: 40px; */
-}
-
-
 .header{
     font-family: sans-serif;
     display: flex;
@@ -196,13 +190,6 @@
     /* margin-right: 0px; */
     align-content: space-between;
     z-index: 0;
-}
-
-.actionContainer i{
-    
-    
-    /* color: rgb(80, 79, 79); */
-    
 }
 .actionContainer a{
     font-size: 1.5rem;
@@ -429,8 +416,5 @@
     }
     .play{
         margin-bottom: 20px;
-    }
-    .info{
-
     }
 }

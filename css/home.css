@@ -1,6 +1,8 @@
+/* z-index will work if we give for the dive that contain the thing we need to see */
 *, html {
     margin:0;
-    padding:0;  
+    padding:0; 
+    font-family: sans-serif; 
 }
 .body{
     margin: 0;
@@ -18,7 +20,7 @@
     left: 0;
     top: 0;
     background-size: cover;
-    z-index: 0;
+    /* z-index: 0; */
     height: 760px;
     object-fit: cover;
 }
@@ -28,6 +30,7 @@
     /* height: 1000px; */
     background-color: black;
     width: 100%;
+    height: 760px;
     /* background-color: rgb(150, 95, 160); */
 
     /* background-repeat: no-repeat; */
@@ -36,13 +39,13 @@
 }
 .nav{
     margin-left: 180px;
-    z-index: 0;
+    /* z-index: 0; */
     font-weight: 450;
     font-family: "Yu Gothic";
     
 }
 .rightHeader{
-    z-index: 0;
+    /* z-index: 0; */
     /* padding: 40px; */
 }
 
@@ -57,7 +60,7 @@
     /* background-image: linear-gradient(red, yellow); */
     background-image: linear-gradient(180deg,rgba(0,0,0) 10%,transparent);
     opacity: 0.7;
-    z-index: 0;
+    /* z-index: 0; */
     
 }
 .logo{
@@ -89,9 +92,68 @@
     padding: 10px;
 }
 .rightHeader i, a{
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
     /* z-index: 0; */
 }
+.rightHeader img{
+    padding: 0px 10px;
+    width: 40px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    padding: 11% 3% 3% 3%;
+}
+.movie-title{
+    z-index: 0;
+    color: white;
+    /* background-color: aliceblue; */
+}
+.logo2{
+    display: flex;
+    z-index: 0;
+    align-items: center;
+}
+.logo2 h1{
+    color: red;
+    margin-right: 6px;
+}
+.logo2 h3{
+    color: white;
+}
+.first-word{
+    display: flex;
+}
+.one{
+    font-size: 100px;
+}
+.two{
+    font-size: 125px;
+}
+.three{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    font-size: 60px;
+}
+.four{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    font-size: 55px;
+}
+.five{
+    position: relative;
+    bottom: 190px;
+    left: 65px;
+    font-size: 130px;
+}
+
+/* .title{
+    z-index: 0;
+    background-color: rebeccapurple;
+} */
 /* .play i{
     color: black;
     display: flex;
@@ -101,27 +163,33 @@
     /* background-color: black; */
     width: 55%;
     display: flex;
-    padding: 0.8%;
+    /* padding: 0.8%; */
     padding-top: 26.5%;
+    justify-content: center;
+    /* margin-right: 10px; */
+    font-size: 2rem;
+    position: relative;
+    bottom: 740px;
+    right: 285px;
 }
 
 .play{
     /* width: 60px; */
     background-color: white;
     border-radius: 5px;
-    padding: 9px 35px;
+    padding: 9px 33px;
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 20px;
     align-content: space-between;
     z-index: 0;
 }
 .info{
     /* width: 60px; */
-    background-color: rgb(155, 154, 154, 0.4);
+    background-color: rgba(91, 88, 88, 0.5);
     /* opacity: 0.5; */
     border-radius: 5px;
-    padding: 9px 33px;
+    padding: 0px 27px;
     display: flex;
     align-items: center;
     /* margin-right: 0px; */
@@ -130,13 +198,10 @@
 }
 
 .actionContainer i{
-    margin-right: 10px;
-    font-size: 2rem;
-    /* position: relative; */
-    /* bottom: 30px; */
+    
+    
     /* color: rgb(80, 79, 79); */
-    display: flex;
-    justify-content: center;
+    
 }
 .actionContainer a{
     font-size: 1.5rem;
@@ -150,10 +215,35 @@
 }
 .info i{
     color: white;
+    margin-right: 10px;
+}
+.s{
+    display: flex ;
+    justify-content: center;
+    /* background-color: white; */
+    position: relative;
+    bottom: 700px;
+    
 }
 
-.dialogue h3{
-    z-index: 0;
+.dialogue h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    /* display: flex; */
+    /* z-index: 0; */
+}
+.audio{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    right: 0px;
+}
+.volume{
+    background-color: black;
+    
 }
 .transition{
     height: 400px;
@@ -165,40 +255,48 @@
     width: 100%;
     /* height: 1000px; */
     background-color: rgba(8, 7, 7, 0.776);
-    background-image: linear-gradient(360deg,rgba(0,0,0) 98%,transparent);
+    background-image: linear-gradient(360deg,rgba(0,0,0) 91%,transparent);
     /* opacity: 0.4; */
     position: relative;
     border: none;
-    top: 97px;
+    top: 0px;
     padding-left: 3%;
     padding-top: 300px;
-    padding-bottom: 300px;
+    /* padding-bottom: 300px; */
 }
 .content{
     width: 100%;
     position: relative;
-    bottom: 290px;
+    bottom: 300px;
 }
 .poster h3{
     color: white;
     margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Yu Gothic";
+    font-size: 23px;
+    
 }
-.content img{
-    /* width: 350px;
-    height: 200px; */
-    /* margin-left: 20px; */
-    /* object-fit: cover; */
-    /* object-position: center center; */
-    /* height: 5%; */
-}
+
 .posters img{
     /* margin: auto; */
-    margin-right: 20px;
+    margin-right: 10px;
     object-fit: cover;
-    max-height: 200px;
-    width: 700px;
+    max-height: 170px;
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
     /* height: 300px; */
 }
+.poster img:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1.2);
+}
+/* .poster content:hover{
+    transform: ;
+} */
 .content div::-webkit-scrollbar{
     display: none;
 }
@@ -207,6 +305,10 @@
     overflow: auto;
     overflow: auto;
     margin-bottom: 20px;
+}
+.type .slide{
+    color: rgb(32, 141, 184);
+    margin-left: 5px;
 }
 
 /* .posters1{

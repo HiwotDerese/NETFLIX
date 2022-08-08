@@ -331,3 +331,53 @@
     bottom: 80px;
     left: 550px;
 }
+.collections{
+    display: flex;
+    color: white;
+    padding-left:5% ;
+    padding-right: 5%;
+    position: relative;
+    bottom: 100px;
+}
+.card{
+    padding-left:5% ;
+    padding-right: 5%;
+    color: white;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.card-one{
+    /* width: 25%; */
+    background-color: rgba(36, 34, 34, 0.897);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.on-card{
+    padding: 15px;
+}
+.card-one img{
+    width: 100%;
+}
+.card-one .green{
+    color: green;
+    background-color: rgba(36, 34, 34, 0.897);
+    margin-bottom: 10px;
+}
+.card-one .eighteen{
+    width: fit-content;
+    margin-left: 0px;
+    background-color: rgba(36, 34, 34, 0.897);
+    margin-bottom: 10px;
+
+}
+.year{
+    display: flex;
+}
+.card-one p{
+    font-stretch: extra-expanded;
+    font-size:0.9rem;
+    opacity: 0.9;
+}

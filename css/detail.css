@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     width: 60%;
     /* height: auto; */
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(18, 18, 18);
     /* padding: 3%; */
     margin-top: 30px;
     /* background-image: linear-gradient(360deg,rgba(0,0,0,.7) 10%,transparent) */
@@ -407,9 +407,14 @@
     display: flex;
 }
 .card-one p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
     font-stretch: extra-expanded;
-    /* font-size:0.9rem; */
-    opacity: 0.9;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Yu Gothic";
+    opacity: 0.8;
 }
 
 .likes{
@@ -429,5 +434,27 @@
 .cards2 .add{
     position: relative;
     left: 190px;
-    bottom: 160px;
+    bottom: 230px;
+}
+.thin3{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: white;
+    opacity: 0.1;
+    margin-bottom: 50px;
+    /* width: 100%; */
+    margin: 0px 5% 0px 5%;
+}
+.about{
+    margin: 30px 5%;
+    max-width: 850px;
+}
+.about-movie{
+    display: flex;
+    margin-bottom: 20px;
+}
+.about-title{
+    font-size: 2rem;
+    margin-bottom: 30px;
 }

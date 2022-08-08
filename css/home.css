@@ -89,11 +89,15 @@
 .rightHeader i, a{
     padding: 10px;
     font-size: 20px;
+    /* position: absolute;
+    right: 3%; */
+    /* left: 150px; */
     /* z-index: 0; */
 }
 .rightHeader img{
-    padding: 0px 10px;
+    padding: 0px 10px 0px 0px;
     width: 40px;
+    height: 30px;
 }
 .title{
     display: flex;
@@ -164,7 +168,7 @@
     /* margin-right: 10px; */
     font-size: 2rem;
     position: relative;
-    bottom: 740px;
+    bottom: 700px;
     right: 285px;
 }
 
@@ -172,7 +176,7 @@
     /* width: 60px; */
     background-color: white;
     border-radius: 5px;
-    padding: 9px 33px;
+    padding: 2px 25px;
     display: flex;
     align-items: center;
     margin-right: 20px;
@@ -181,10 +185,10 @@
 }
 .info{
     /* width: 60px; */
-    background-color: rgba(91, 88, 88, 0.5);
-    /* opacity: 0.5; */
+    background-color: rgba(155, 154, 154, 0.4);
+    /* opacity: 0.7; */
     border-radius: 5px;
-    padding: 0px 27px;
+    padding: 2px 20px;
     display: flex;
     align-items: center;
     /* margin-right: 0px; */
@@ -218,6 +222,9 @@
     color: white;
     font-size: 60px;
     font-weight: 400;
+    position: relative;
+    bottom: 40px;
+    opacity: 0.8;
     /* display: flex; */
     /* z-index: 0; */
 }
@@ -280,23 +287,23 @@
     width: 100%;
     /* height: 1000px; */
     background-color: rgba(8, 7, 7, 0.776);
-    background-image: linear-gradient(360deg,rgba(0,0,0) 91%,transparent);
+    background-image: linear-gradient(360deg,rgba(0,0,0) 90%,transparent);
     /* opacity: 0.4; */
     position: relative;
     border: none;
-    top: 0px;
+    /* top: 0px; */
     padding-left: 3%;
-    padding-top: 300px;
+    padding-top: 400px;
     /* padding-bottom: 300px; */
 }
 .content{
     width: 100%;
     position: relative;
-    bottom: 300px;
+    bottom: 450px;
 }
 .poster h3{
     color: white;
-    margin-bottom: 20px;
+    /* margin-bottom: 10px; */
     font-weight: 600;
     font-family: "Yu Gothic";
     font-size: 23px;
@@ -305,12 +312,12 @@
 
 .posters img{
     /* margin: auto; */
-    margin-right: 10px;
+    /* margin-right: 1px; */
     object-fit: cover;
     max-height: 170px;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
-    margin-bottom: 40px;
+    /* margin-bottom: 20px; */
     -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     /* height: 300px; */
@@ -329,7 +336,7 @@
     display: flex;
     overflow: auto;
     overflow: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .type .slide{
     color: rgb(32, 141, 184);

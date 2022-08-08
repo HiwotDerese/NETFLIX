@@ -280,6 +280,14 @@
 .one-episode{
     display: flex;
     max-width: 860px;
+    align-items: center;
+}
+.one-episode h1{
+    color: white;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    opacity: 0.8;
 }
 .one-episode img{
     width: 230px;
@@ -300,7 +308,7 @@
     font-stretch: extra-expanded;
 }
 .ep-disc h2{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .ep-disc p{
     font-size: 17px;
@@ -314,8 +322,8 @@
     color: #333;
     background-color: white;
     opacity: 0.1;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     /* width: 80%; */
 }
 .min{

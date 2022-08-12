@@ -4,23 +4,31 @@
 }
 
 .container{
-    width: 100%;
-    /* height: 1000px; */
+    /* width: 100%; */
+    /* height:auto; */
     background-color: black;
     display: flex;
     justify-content: center;
-    padding-bottom: 10%;
+    /* padding-bottom: 50%; */
 }
-.detail{
+.container2{
+    width: 50%;
+    background-color: rgb(18, 18, 18);
+    margin-top: 30px;
+    /* padding: 20px; */
+}
+.with-img{
     background-image: url(../images/breaking-bad.jpg);
     background-repeat: no-repeat;
-    width: 60%;
-    /* height: auto; */
-    background-color: rgb(18, 18, 18);
-    /* padding: 3%; */
-    margin-top: 30px;
-    /* background-image: linear-gradient(360deg,rgba(0,0,0,.7) 10%,transparent) */
-    padding-bottom: 10%;
+    background-size: 100% 100%;
+    padding: 10px 10px 30px 30px;
+    height: 550px;
+}
+.ca{
+    /* position: relative;
+    bottom: 15px; */
+    display: flex;
+    justify-content: flex-end;
 }
 .cancel{
     background-color: rgb(94, 93, 93);
@@ -30,9 +38,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    position: relative;
-    left: 1015px;
-    margin-top: 20px;
+    /* position: relative;
+    left: 1015px; */
+    /* margin-top: 20px; */
 }
 .cancel i{
     color: white;
@@ -41,7 +49,7 @@
     /* font-family: "yu gothic"; */
 }
 .content{
-    padding: 200px 80px 80px 60px;
+    padding-top: 200px;
 }
 .title{
     display: flex;
@@ -52,8 +60,8 @@
 }
 .title h5{
     font-size: 10px;
-    position: relative;
-    right: 10px;
+    /* position: relative;
+    right: 10px; */
 }
 .break{
     width: fit-content;
@@ -84,11 +92,48 @@
 }
 .quote{
     /* background-color: wheat; */
-    max-width: 450px;
-    position: relative;
-    left: 500px;
-    color: white;
+    max-width: 300px;
+    /* margin-left: 500px; */
+    color: rgb(31, 81, 4);
+    position: absolute;
+    margin-left: 27%;
+    font-size: 20px;
+    width: 280px;
+    
+    
+    /* padding-left: 00px; */
+    /* margin-right:0px; */
 }
+.description{
+    /* margin: 0px; */
+    width: 50%;
+    height: 50px;
+    background-color: grey;
+    background-image: linear-gradient(360deg,rgb(0, 0, 0) 10%,transparent);
+    opacity: 0.3;
+    position: absolute;
+    top: 61vh;
+    /* position: fixed; */
+    /* bottom: 110px; */
+    padding-top: 100px;
+}
+/* .quote h1{
+    background-color: red;
+    
+} */
+.container3{
+    margin-top: 80px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.container2-left{
+    display: flex;
+}
+/* .play h1{
+    max-width: 10px;
+} */
+
 .play{
     width: fit-content;
     background-color: white;
@@ -98,15 +143,9 @@
     align-items: center;
     margin-right: 20px;
     align-content: space-between;
-    z-index: 0;
+    /* z-index: 0; */
 }
-.container2{
-    display: flex;
-    justify-content: space-between;
-}
-.container2-left{
-    display: flex;
-}
+
 .play a{
     text-decoration: none;
     color: black;
@@ -154,7 +193,6 @@
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    /* opacity: 0.5; */
 }
 .volume i{
     align-content: center;
@@ -162,39 +200,29 @@
 
 }
 
-.description{
-    width: 100%;
-    height: 150px;
-    background-color: grey;
-    background-image: linear-gradient(360deg,rgb(0, 0, 0) 10%,transparent);
-    opacity: 0.3;
-    position: relative;
-    bottom: 130px;
-    padding-top: 100px;
-}
+
+
 .aside{
     color: white;
-    position: relative;
-    bottom: 200px;
-    padding-left: 5%;
-    padding-right: 8%;
-    display: flex;
-    justify-content: space-between;
+    padding: 0px 10px 30px 30px;
+
 }
 .aside h2{
     font-weight: 500;
     font-family: "Yu Gothic";
-    font-size: 20px;
+    font-size: 15px;
     /* margin-right: 10px; */
 }
 .first-line{
     display: flex;
-    align-items: center;
-    
+    /* justify-content: ; */
+}
+.first-line div, h2{
+    margin-right: 5px;
 }
 .green{
     color: green;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 /* .eighteen{
     border-style: solid;
@@ -209,13 +237,12 @@
     color: white;
     /* background-color: aqua; */
     border-style: solid;
-    position: relative;
     height: 18px;
-    margin: 0px 10px 0px 10px;
+    /* margin: 0px 10px 0px 10px; */
     border-width: 1px;
     border-color: white;
-    padding: 0px 6px;
-    font-size: larger;
+    /* padding: 0px 6px; */
+    /* font-size: larger; */
     /* font-weight: 700;
     font-family: "Yu Gothic"; */
 }
@@ -223,13 +250,11 @@
     color: white;
     /* background-color: aqua; */
     border-style: solid;
-    position: relative;
     height: 18px;
-    margin: 0px 10px 0px 10px;
     border-width: 1px;
     border-color: white;
-    padding: 0px 6px;
-    font-size: larger;
+    /* padding: 0px 6px;
+    font-size: larger; */
 }
 .blur{
     opacity: 0.7;
@@ -238,33 +263,47 @@
 .left-detail{
     max-width: 500px;
     margin-top: 20px;
+    font-size: 14px;
 }
 .left-detail h3{
     font-weight: 400;
     font-family: "Yu Gothic";
+    /* font-size: 14px; */
+
 }
 .aside-right{
-    max-width: 320px;
+    max-width: 237px;
 }
 .aside-right h3{
     font-weight: 300;
     font-family: "Yu Gothic";
+    font-size: 14px;
+
 }
 .cast{
-    display: flex;
+    display: block;
+    margin-bottom: 15px;
 }
+/* .cast span{
+    max-width: 30px;
+} */
 .genres{
-    display: flex;
+    display: block;
+    margin-bottom: 15px;
 }
 .this-show{
     display: flex;
 }
 
+
+
 .episodes{
-    position: relative;
-    bottom: 150px;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* position: relative;
+    bottom: 150px; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    padding: 10px 10px 30px 30px;
+
 }
 .select{
     display: flex;
@@ -274,14 +313,15 @@
 .select h1{
     color: white;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 25px;
 }
 .select a{
     text-decoration: none;
 }
 .select button{
     padding: 10px;
-    background-color: rgba(128, 128, 128, 0.209);
+    background-color: rgb(18, 18, 18);
     border-style: solid;
     border-color: white;
     border-radius: 10px;
@@ -291,9 +331,7 @@
 .select h2{
     margin-right: 10px;
 }
-/* hr{
-    border-width: 0.5em solid white;
-} */
+
 .thin1{
     height: 1px;
     border: 0;
@@ -311,10 +349,20 @@
 }
 .one-episode h1{
     color: white;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     font-family: sans-serif;
     font-weight: 200;
     opacity: 0.8;
+}
+.one-episode h3{
+    color: white;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+    font-weight: 200;
+    opacity: 0.8;
+    position: absolute;
+    right: 30%;
+    
 }
 .one-episode img{
     width: 230px;
@@ -344,7 +392,7 @@
     opacity: 0.8;
 }
 .thin2{
-    height: 1px;
+    height: 2.5px;
     border: 0;
     color: #333;
     background-color: white;
@@ -353,27 +401,28 @@
     margin-top: 30px;
     /* width: 80%; */
 }
-.min{
-    position: relative;
-    bottom: 80px;
-    left: 550px;
+.cards{
+    padding: 10px 30px 30px 30px;
 }
+
 .collections{
     display: flex;
     color: white;
-    padding-left:5% ;
-    padding-right: 5%;
-    position: relative;
-    bottom: 100px;
+    /* padding: 0px 0px 0px 0px; */
+
+    /* padding-left:5% ;
+    padding-right: 5%; */
+    /* position: relative;
+    bottom: 100px; */
 }
 
 .card{
-    padding-left:5% ;
-    padding-right: 5%;
+    /* padding-left:5% ;
+    padding-right: 5%; */
     color: white;
     font-family: sans-serif;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 34% 34% 34%;
 }
 .card-one{
     /* width: 25%; */
@@ -416,14 +465,16 @@
     font-family: "Yu Gothic";
     opacity: 0.8;
 }
-
+.cards2{
+    padding: 10px 30px 30px 30px;
+}
 .likes{
     display: flex;
     color: white;
-    padding-left:5% ;
-    padding-right: 5%;
-    position: relative;
-    bottom: 0px;
+    /* padding-left:5% ;
+    padding-right: 5%; */
+    /* position: relative;
+    bottom: 0px; */
 }
 .likes h1{
     margin: 50px 0px 20px 0px;
@@ -431,10 +482,14 @@
     font-weight: 200;
     font-family: "Yu Gothic";
 }
+.add2{
+    display: flex;
+    justify-content: flex-end;
+}
 .cards2 .add{
-    position: relative;
+    /* position: relative;
     left: 190px;
-    bottom: 230px;
+    bottom: 230px; */
 }
 .thin3{
     height: 1px;
@@ -451,10 +506,154 @@
     max-width: 850px;
 }
 .about-movie{
-    display: flex;
+    display: block;
     margin-bottom: 20px;
+    color: white;
 }
 .about-title{
     font-size: 2rem;
     margin-bottom: 30px;
+}
+
+@media only screen and (max-width:1200px) {
+    .title{
+        font-size: 20px;
+    }
+    .with-img{
+        height: 450px;
+    }
+    .content{
+        padding-top: 180px;
+    }
+    .bad{
+        display: flex;
+        position: relative;
+        left: 56px;
+    }
+    .quote{
+        margin: 30px 0px ;
+        max-width: 300px;
+        width: 100%;
+
+    }
+    .description{
+        width: 65%;
+        position: absolute;
+        top: 57vh;
+        /* position: fixed; */
+    }
+    .container3{
+        margin-top: 100px;
+    }
+    .play{
+        padding: 0px 10px;
+        max-width: 150px;
+    }
+    .play a{
+        font-size: 15px;
+    }
+    .play i{
+        font-size: 18px;
+    }
+    .add{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .thumbs-up{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .volume{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .container2{
+        width: 65%;
+    }
+    .left-detail{
+        margin-bottom: 15px;
+    }
+    .cards{
+        padding: 10px 30px 30px 30px;
+    }
+    .one-episode{
+        display: block;
+    }
+    .one-episode h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .one-episode h3{
+        margin-left: 75%;
+    }
+    .one-episode img{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .ep-disc{
+        display: block;
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    }
+    .ep-disc h2{
+        margin-bottom: 0px;
+    }
+    .ep-disc p{
+        margin-bottom: 20px;
+    }
+    .thin2{
+        margin-bottom: 20px;
+
+    }
+    .collections{
+        margin-bottom: 20px;
+    }
+    
+    .card{
+        display: block;
+        width: 75%;
+    }
+    .cards2{
+        padding: 10px 30px 30px 30px;
+    }
+    .card-one{
+        margin-bottom: 20px;
+    }
+    .likes{
+        /* display: flex; */
+        /* color: white; */
+        /* padding-left:5% ;
+        padding-right: 5%; */
+        /* position: relative;
+        bottom: 0px; */
+    }
+    .likes h1{
+        margin: 50px 0px 20px 0px;
+        /* font-family: sans-serif; */
+        font-weight: 200;
+        font-family: "Yu Gothic";
+    }
+    .add2{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .cards2 .add{
+        /* position: relative;
+        left: 190px;
+        bottom: 230px; */
+    }
+    .thin3{
+        height: 1px;
+        border: 0;
+        color: #333;
+        background-color: white;
+        opacity: 0.1;
+        margin-bottom: 50px;
+        /* width: 100%; */
+        margin: 0px 5% 0px 5%;
+    }
+    
 }

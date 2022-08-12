@@ -17,8 +17,8 @@
     margin-top: 30px;
     /* padding: 20px; */
 }
-.with-img{
-    background-image: url(../images/breaking-bad.jpg);
+#withImg{
+    /* background-image: url(../images/breaking-bad.jpg); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 10px 10px 30px 30px;
@@ -489,7 +489,7 @@
     .title{
         font-size: 20px;
     }
-    .with-img{
+    #withImg{
         height: 450px;
     }
     .content{

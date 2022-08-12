@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .container{
     overflow: hidden;
@@ -21,55 +21,45 @@
     left: 0;
     top: 0;
     background-size: cover;
-    /* z-index: 0; */
-    height: 760px;
+    height: 800px;
     object-fit: cover;
 }
 .homePage{
-    /* padding: 3%; */
-    /* width: 100%; */
-    /* height: 1000px; */
     background-color: black;
     width: 100%;
-    height: 760px;
-    /* background-color: rgb(150, 95, 160); */
-
-    /* background-repeat: no-repeat; */
-    /* background-image: url(../images/food_3.jpeg); */
-
-}
-.nav{
-    margin-left: 180px;
-    /* z-index: 0; */
-    font-weight: 450;
-    font-family: "Yu Gothic";
-    
+    height: 800px;
 }
 .header{
     font-family: sans-serif;
     display: flex;
-    padding: 1.8% 3%;
-    /* display: flex; */
+    padding: 20px 40px;
     justify-content: space-between;
-    /* background-color: rgba(4, 3, 3,.7); */
-    /* background-image: linear-gradient(red, yellow); */
     background-image: linear-gradient(180deg,rgba(0,0,0) 10%,transparent);
     opacity: 0.7;
-    /* z-index: 0; */
+}
+.navLogo{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 450;
+    font-family: "Yu Gothic";
     
 }
+.rightHeader{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.rightHeader i, a{
+    font-size: 20px;
+}
 .logo{
-    padding-right: 30px;
     width: 150px;
-    height: 35px;
-    /* color: rgba(241, 0, 0, 0.852); */
-    position: absolute;
-    top: 20px;
-    /* top: -45px; */
-    
-
-    /* font-family: 'Bebas Neue', sans-serif; */
-    /* font-size: 2rem; */
 }
 .header a{
     color: white;
@@ -79,21 +69,6 @@
 .header i{
     color: white;
 }
-.navLogo{
-    display: flex;
-    justify-content: space-between;
-}
-.navLogo a{
-    padding: 10px;
-}
-.rightHeader i, a{
-    padding: 10px;
-    font-size: 20px;
-    /* position: absolute;
-    right: 3%; */
-    /* left: 150px; */
-    /* z-index: 0; */
-}
 .rightHeader img{
     padding: 0px 10px 0px 0px;
     width: 40px;
@@ -102,7 +77,9 @@
 .title{
     display: flex;
     flex-direction: column;
-    padding: 11% 3% 3% 3%;
+    padding: 200px 40px 0px 40px;
+    height: 300px;
+    /* padding: 11% 3% 3% 3%; */
 }
 .movie-title{
     z-index: 0;
@@ -116,7 +93,7 @@
 }
 .logo2 h1{
     color: red;
-    margin-right: 6px;
+    /* margin-right: 6px; */
 }
 .logo2 h3{
     color: white;
@@ -149,37 +126,23 @@
     font-size: 130px;
 }
 
-/* .title{
-    z-index: 0;
-    background-color: rebeccapurple;
-} */
-/* .play i{
-    color: black;
-    display: flex;
-    justify-content: center;
-} */
 .actionContainer{
-    /* background-color: black; */
-    width: 55%;
+    padding: 0px 40px;
+    width: 350px;
     display: flex;
-    /* padding: 0.8%; */
-    padding-top: 26.5%;
-    justify-content: center;
-    /* margin-right: 10px; */
+    justify-content: space-between;
     font-size: 2rem;
-    position: relative;
-    bottom: 700px;
-    right: 285px;
+    
 }
 
 .play{
     /* width: 60px; */
     background-color: white;
     border-radius: 5px;
-    padding: 2px 25px;
+    padding: 10px 25px;
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     align-content: space-between;
     z-index: 0;
 }
@@ -188,7 +151,7 @@
     background-color: rgba(155, 154, 154, 0.4);
     /* opacity: 0.7; */
     border-radius: 5px;
-    padding: 2px 20px;
+    padding: 6px 20px;
     display: flex;
     align-items: center;
     /* margin-right: 0px; */
@@ -202,6 +165,9 @@
     color: black;
     font-weight: 500;
 }
+.play i{
+    margin-right: 10px;
+}
 .info a{
     color: white;
 }
@@ -212,9 +178,7 @@
 .s{
     display: flex ;
     justify-content: center;
-    /* background-color: white; */
-    position: relative;
-    bottom: 700px;
+    margin-top: 50px;
     
 }
 
@@ -222,8 +186,8 @@
     color: white;
     font-size: 60px;
     font-weight: 400;
-    position: relative;
-    bottom: 40px;
+    /* position: relative;
+    bottom: 40px; */
     opacity: 0.8;
     /* display: flex; */
     /* z-index: 0; */
@@ -289,17 +253,17 @@
     background-color: rgba(8, 7, 7, 0.776);
     background-image: linear-gradient(360deg,rgba(0,0,0) 90%,transparent);
     /* opacity: 0.4; */
-    position: relative;
+    /* position: relative; */
     border: none;
     /* top: 0px; */
-    padding-left: 3%;
-    padding-top: 400px;
+    padding: 0px 0px 0px 40px
+    /* padding-top: 400px; */
     /* padding-bottom: 300px; */
 }
 .content{
     width: 100%;
     position: relative;
-    bottom: 450px;
+    bottom: 45px;
 }
 .poster h3{
     color: white;
@@ -312,15 +276,15 @@
 
 .posters img{
     /* margin: auto; */
-    /* margin-right: 1px; */
+    margin-right: 10px;
     object-fit: cover;
     max-height: 170px;
-    width: 300px;
+    width: 17vw;
     border-radius: 10px;
     /* margin-bottom: 20px; */
     -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-    /* height: 300px; */
+    height: 300px;
 }
 .poster img:hover{
     -webkit-transform: scale(1);
@@ -335,7 +299,6 @@
 .content div{
     display: flex;
     overflow: auto;
-    overflow: auto;
     margin-bottom: 10px;
 }
 .type .slide{
@@ -343,85 +306,68 @@
     margin-left: 5px;
 }
 
-/* .posters1{
-    display: flex;
-    overflow: auto;
-    margin-bottom: 20px;
-    background-image: linear-gradient(360deg,rgba(0,0,0) 10%,transparent);
-    opacity: 0.7;
-    
-} */
-/* .posters2{
-    display: flex;
-    overflow: auto;
-    margin-bottom: 20px;
-}
-.posters3{
-    display: flex;
-    overflow: auto;
-    margin-bottom: 20px;
-}
-.posters4{
-    display: flex;
-    overflow: auto;
-    margin-bottom: 20px;
-}
-.posters5{
-    display: flex;
-    overflow: auto;
-    margin-bottom: 20px;
-} */
-/* .content1{
-    background-color: black;
-    background-image: linear-gradient(360deg,rgba(0,0,0) 10%,transparent);
-    opacity: 0.7;
-} */
-/* .content1::-webkit-scrollbar {
-        display: none;
-} */
-/* .posters1::-webkit-scrollbar {
-    display: none;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:904px) {
+@media only screen and (max-width:1204px) {
+    .header{
+        /* width: 100%; */
+        display: flex;
+        justify-content: space-between;
+    }
     
     .navLogo{
-        display: flex;
-        flex-direction: column;
+        width: 350px;
+        display: block;
     }
     .nav{
         display: flex;
         flex-direction: column;
     }
     .nav a{
-        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .title{
+        padding-top: 0px;
+        height: 170px;
+    }
+    .one{
+        font-size: 50px;
+    }
+    .two{
+        font-size: 62.5px;
+    }
+    .three{
+        position: relative;
+        bottom: 30px;
+        /* left: 10px; */
+        font-size: 30px;
+    }
+    .four{
+        position: relative;
+        bottom: 40px;
+        left: 20px;
+        font-size: 27.5px;
+    }
+    .five{
+        position: relative;
+        bottom: 100px;
+        left: 45px;
+        font-size: 65px;
     }
 
     .actionContainer{
-        max-width: 36%;
+        /* max-width: 36%; */
+        width: 200px;
         display: flex;
         flex-direction: column;
     }
     .play{
         margin-bottom: 20px;
+        width: 100px;
+    }
+    .s{
+        margin-top: 0px;
+    }
+    .dialogue h1{
+        font-size: 25px;
+        font-weight: 600;
     }
 }

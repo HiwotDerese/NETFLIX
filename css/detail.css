@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    /* height: 1000px; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.detail{
+    background-image: url(../images/breaking-bad.jpg);
+    background-repeat: no-repeat;
+    width: 60%;
+    /* height: auto; */
+    background-color: rgb(18, 18, 18);
+    /* padding: 3%; */
+    margin-top: 30px;
+    /* background-image: linear-gradient(360deg,rgba(0,0,0,.7) 10%,transparent) */
+    padding-bottom: 10%;
+}
+.cancel{
+    background-color: rgb(94, 93, 93);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    left: 1015px;
+    margin-top: 20px;
+}
+.cancel i{
+    color: white;
+    font-size: 25px;
+    /* font-weight: 200; */
+    /* font-family: "yu gothic"; */
+}
+.content{
+    padding: 200px 80px 80px 60px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+
+}
+.title h5{
+    font-size: 10px;
+    position: relative;
+    right: 10px;
+}
+.break{
+    width: fit-content;
+    display: flex;
+    /* margin-bottom: 20px; */
+}
+.bad{
+    display: flex;
+    position: relative;
+    left: 78px;
+    
+}
+.br{
+    background-color: green;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    /* width: max-content; */
+}
+.ba{
+    background-color: green;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    
+}
+.quote{
+    /* background-color: wheat; */
+    max-width: 450px;
+    position: relative;
+    left: 500px;
+    color: white;
+}
+.play{
+    width: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding: 9px 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    align-content: space-between;
+    z-index: 0;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.container2-left{
+    display: flex;
+}
+.play a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.play i{
+    font-size: 30px;
+}
+.add{
+    background-color: rgba(91, 88, 88, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+.thumbs-up{
+    background-color: rgba(91, 88, 88, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+.volume{
+    background-color: rgba(91, 88, 88, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    /* opacity: 0.5; */
+}
+.volume i{
+    align-content: center;
+    color: white;
+
+}
+
+.description{
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+    background-image: linear-gradient(360deg,rgb(0, 0, 0) 10%,transparent);
+    opacity: 0.3;
+    position: relative;
+    bottom: 130px;
+    padding-top: 100px;
+}
+.aside{
+    color: white;
+    position: relative;
+    bottom: 200px;
+    padding-left: 5%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.aside h2{
+    font-weight: 500;
+    font-family: "Yu Gothic";
+    font-size: 20px;
+    /* margin-right: 10px; */
+}
+.first-line{
+    display: flex;
+    align-items: center;
+    
+}
+.green{
+    color: green;
+    margin-right: 10px;
+}
+/* .eighteen{
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+} */
+
+.age{
+    color: white;
+    /* background-color: aqua; */
+    border-style: solid;
+    position: relative;
+    height: 18px;
+    margin: 0px 10px 0px 10px;
+    border-width: 1px;
+    border-color: white;
+    padding: 0px 6px;
+    font-size: larger;
+    /* font-weight: 700;
+    font-family: "Yu Gothic"; */
+}
+.first-line .hd{
+    color: white;
+    /* background-color: aqua; */
+    border-style: solid;
+    position: relative;
+    height: 18px;
+    margin: 0px 10px 0px 10px;
+    border-width: 1px;
+    border-color: white;
+    padding: 0px 6px;
+    font-size: larger;
+}
+.blur{
+    opacity: 0.7;
+    margin-right: 5px;
+}
+.left-detail{
+    max-width: 500px;
+    margin-top: 20px;
+}
+.left-detail h3{
+    font-weight: 400;
+    font-family: "Yu Gothic";
+}
+.aside-right{
+    max-width: 320px;
+}
+.aside-right h3{
+    font-weight: 300;
+    font-family: "Yu Gothic";
+}
+.cast{
+    display: flex;
+}
+.genres{
+    display: flex;
+}
+.this-show{
+    display: flex;
+}
+
+.episodes{
+    position: relative;
+    bottom: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.select h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.select a{
+    text-decoration: none;
+}
+.select button{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.209);
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+}
+.select h2{
+    margin-right: 10px;
+}
+/* hr{
+    border-width: 0.5em solid white;
+} */
+.thin1{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: white;
+    opacity: 0.1;
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    /* width: 80%; */
+}
+.one-episode{
+    display: flex;
+    max-width: 860px;
+    align-items: center;
+}
+.one-episode h1{
+    color: white;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+    opacity: 0.8;
+}
+.one-episode img{
+    width: 230px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.ep-disc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ep-disc h2, p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-stretch: extra-expanded;
+}
+.ep-disc h2{
+    margin-bottom: 20px;
+}
+.ep-disc p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Yu Gothic";
+    opacity: 0.8;
+}
+.thin2{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: white;
+    opacity: 0.1;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /* width: 80%; */
+}
+.min{
+    position: relative;
+    bottom: 80px;
+    left: 550px;
+}
+.collections{
+    display: flex;
+    color: white;
+    padding-left:5% ;
+    padding-right: 5%;
+    position: relative;
+    bottom: 100px;
+}
+
+.card{
+    padding-left:5% ;
+    padding-right: 5%;
+    color: white;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.card-one{
+    /* width: 25%; */
+    background-color: rgba(36, 34, 34, 0.897);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.on-card{
+    padding: 15px;
+}
+.card-one img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-one .green{
+    color: green;
+    background-color: rgba(36, 34, 34, 0.897);
+    margin-bottom: 10px;
+}
+.card-one .eighteen{
+    width: fit-content;
+    margin-left: 0px;
+    background-color: rgba(36, 34, 34, 0.897);
+    margin-bottom: 10px;
+
+}
+.year{
+    display: flex;
+}
+.card-one p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-stretch: extra-expanded;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Yu Gothic";
+    opacity: 0.8;
+}
+
+.likes{
+    display: flex;
+    color: white;
+    padding-left:5% ;
+    padding-right: 5%;
+    position: relative;
+    bottom: 0px;
+}
+.likes h1{
+    margin: 50px 0px 20px 0px;
+    /* font-family: sans-serif; */
+    font-weight: 200;
+    font-family: "Yu Gothic";
+}
+.cards2 .add{
+    position: relative;
+    left: 190px;
+    bottom: 230px;
+}
+.thin3{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: white;
+    opacity: 0.1;
+    margin-bottom: 50px;
+    /* width: 100%; */
+    margin: 0px 5% 0px 5%;
+}
+.about{
+    margin: 30px 5%;
+    max-width: 850px;
+}
+.about-movie{
+    display: flex;
+    margin-bottom: 20px;
+}
+.about-title{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}

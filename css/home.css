@@ -1,9 +1,19 @@
+/* z-index will work if we give for the div that contain the thing we need to see */
+/* for flex justify content is horizontal and align atems is vertical */
+*, html {
+    margin:0;
+    padding:0; 
+    font-family: sans-serif; 
+}
 .body{
-    margin: 0px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
     overflow: hidden;
-   
-
+}
+.container{
+    overflow: hidden;
+    width: 100%;
 }
 .backimg{
     width: 100%;
@@ -11,14 +21,17 @@
     left: 0;
     top: 0;
     background-size: cover;
-    z-index: 0;
-    height: 130vh;
+    /* z-index: 0; */
+    height: 760px;
+    object-fit: cover;
 }
 .homePage{
     /* padding: 3%; */
     /* width: 100%; */
     /* height: 1000px; */
     background-color: black;
+    width: 100%;
+    height: 760px;
     /* background-color: rgb(150, 95, 160); */
 
     /* background-repeat: no-repeat; */
@@ -26,38 +39,37 @@
 
 }
 .nav{
-    z-index: 0;
-    font-weight: 100;
+    margin-left: 180px;
+    /* z-index: 0; */
+    font-weight: 450;
+    font-family: "Yu Gothic";
+    
 }
-.rightHeader{
-    z-index: 0;
-    /* padding: 40px; */
-}
-.container{
-    overflow: hidden;
-    /* width: 100%; */
-    /* min-height: 100vh; */
-    /* overflow: hidden; */
-    /* padding: 1%; */
-}
-
 .header{
     font-family: sans-serif;
     display: flex;
-    padding: 2% 3%;
+    padding: 1.8% 3%;
     /* display: flex; */
     justify-content: space-between;
-    /* background-color: rgb(4, 3, 3);
-    opacity: 0.4; */
-    z-index: 0;
+    /* background-color: rgba(4, 3, 3,.7); */
+    /* background-image: linear-gradient(red, yellow); */
+    background-image: linear-gradient(180deg,rgba(0,0,0) 10%,transparent);
+    opacity: 0.7;
+    /* z-index: 0; */
+    
 }
 .logo{
     padding-right: 30px;
-    color: rgba(241, 0, 0, 0.852);
-    position: relative;
-    top: -45px;
+    width: 150px;
+    height: 35px;
+    /* color: rgba(241, 0, 0, 0.852); */
+    position: absolute;
+    top: 20px;
+    /* top: -45px; */
+    
+
     /* font-family: 'Bebas Neue', sans-serif; */
-    font-size: 2.2em;
+    /* font-size: 2rem; */
 }
 .header a{
     color: white;
@@ -75,27 +87,96 @@
     padding: 10px;
 }
 .rightHeader i, a{
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
+    /* position: absolute;
+    right: 3%; */
+    /* left: 150px; */
     /* z-index: 0; */
 }
+.rightHeader img{
+    padding: 0px 10px 0px 0px;
+    width: 40px;
+    height: 30px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    padding: 11% 3% 3% 3%;
+}
+.movie-title{
+    z-index: 0;
+    color: white;
+    /* background-color: aliceblue; */
+}
+.logo2{
+    display: flex;
+    z-index: 0;
+    align-items: center;
+}
+.logo2 h1{
+    color: red;
+    margin-right: 6px;
+}
+.logo2 h3{
+    color: white;
+}
+.first-word{
+    display: flex;
+}
+.one{
+    font-size: 100px;
+}
+.two{
+    font-size: 125px;
+}
+.three{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    font-size: 60px;
+}
+.four{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    font-size: 55px;
+}
+.five{
+    position: relative;
+    bottom: 190px;
+    left: 65px;
+    font-size: 130px;
+}
+
+/* .title{
+    z-index: 0;
+    background-color: rebeccapurple;
+} */
 /* .play i{
     color: black;
     display: flex;
     justify-content: center;
 } */
 .actionContainer{
-    background-color: black;
+    /* background-color: black; */
     width: 55%;
     display: flex;
-    padding: 3%;
-    padding-top: 30%;
+    /* padding: 0.8%; */
+    padding-top: 26.5%;
+    justify-content: center;
+    /* margin-right: 10px; */
+    font-size: 2rem;
+    position: relative;
+    bottom: 700px;
+    right: 285px;
 }
 
 .play{
     /* width: 60px; */
     background-color: white;
     border-radius: 5px;
-    padding: 7px 30px;
+    padding: 2px 25px;
     display: flex;
     align-items: center;
     margin-right: 20px;
@@ -104,25 +185,15 @@
 }
 .info{
     /* width: 60px; */
-    background-color: rgb(155, 154, 154, 0.4);
-    /* opacity: 0.5; */
+    background-color: rgba(155, 154, 154, 0.4);
+    /* opacity: 0.7; */
     border-radius: 5px;
-    padding: 7px 25px;
+    padding: 2px 20px;
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    /* margin-right: 0px; */
     align-content: space-between;
     z-index: 0;
-}
-
-.actionContainer i{
-    margin-right: 10px;
-    font-size: 2rem;
-    /* position: relative; */
-    /* bottom: 30px; */
-    /* color: rgb(80, 79, 79); */
-    display: flex;
-    justify-content: center;
 }
 .actionContainer a{
     font-size: 1.5rem;
@@ -136,33 +207,182 @@
 }
 .info i{
     color: white;
+    margin-right: 10px;
+}
+.s{
+    display: flex ;
+    justify-content: center;
+    /* background-color: white; */
+    position: relative;
+    bottom: 700px;
+    
 }
 
-.dialogue h3{
+.dialogue h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    position: relative;
+    bottom: 40px;
+    opacity: 0.8;
+    /* display: flex; */
+    /* z-index: 0; */
+}
+.audio{
+    /* background-color: white; */
+    /* width: 180px; */
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.volume{
+    background-color: rgba(91, 88, 88, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.volume i{
+    align-content: center;
+    color: white;
+
+}
+.number{
+    background-color: rgba(91, 88, 88, 0.5);
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.vertical{
+    background-color: white;
+    width: 5px;
+    height: 60px;
+    
+}
+.number2{
+    position: relative;
+    left: 10px;
+    color: white;
+}
+.number2 h2{
+    font-weight: 450;
+    font-family: "Yu Gothic";
+}
+.transition{
+    height: 400px;
+    /* background-image: linear-gradient(360deg,rgba(0,0,0) 10%,transparent);
+    opacity: 0.5; */
     z-index: 0;
 }
 .poster{
     width: 100%;
-    height: 1000px;
-    background-color: rgb(8, 7, 7, 0.9);
+    /* height: 1000px; */
+    background-color: rgba(8, 7, 7, 0.776);
+    background-image: linear-gradient(360deg,rgba(0,0,0) 90%,transparent);
+    /* opacity: 0.4; */
     position: relative;
-    top: 150px;
     border: none;
+    /* top: 0px; */
     padding-left: 3%;
-    padding-top: 1%;
+    padding-top: 400px;
+    /* padding-bottom: 300px; */
+}
+.content{
+    width: 100%;
+    position: relative;
+    bottom: 450px;
 }
 .poster h3{
     color: white;
+    /* margin-bottom: 10px; */
+    font-weight: 600;
+    font-family: "Yu Gothic";
+    font-size: 23px;
+    
 }
-.poster img{
-    width: 20%;
-    margin-left: 20px;
-    /* height: 5%; */
+
+.posters img{
+    /* margin: auto; */
+    /* margin-right: 1px; */
+    object-fit: cover;
+    max-height: 170px;
+    width: 300px;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    /* height: 300px; */
 }
-.posters1{
+.poster img:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1.2);
+}
+/* .poster content:hover{
+    transform: ;
+} */
+.content div::-webkit-scrollbar{
+    display: none;
+}
+.content div{
     display: flex;
     overflow: auto;
+    overflow: auto;
+    margin-bottom: 10px;
 }
+.type .slide{
+    color: rgb(32, 141, 184);
+    margin-left: 5px;
+}
+
+/* .posters1{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+    background-image: linear-gradient(360deg,rgba(0,0,0) 10%,transparent);
+    opacity: 0.7;
+    
+} */
+/* .posters2{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.posters3{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.posters4{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.posters5{
+    display: flex;
+    overflow: auto;
+    margin-bottom: 20px;
+} */
+/* .content1{
+    background-color: black;
+    background-image: linear-gradient(360deg,rgba(0,0,0) 10%,transparent);
+    opacity: 0.7;
+} */
+/* .content1::-webkit-scrollbar {
+        display: none;
+} */
+/* .posters1::-webkit-scrollbar {
+    display: none;
+} */
+
 
 
 
@@ -203,8 +423,5 @@
     }
     .play{
         margin-bottom: 20px;
-    }
-    .info{
-
     }
 }

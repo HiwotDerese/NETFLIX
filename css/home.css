@@ -5,12 +5,16 @@
     padding:0; 
     font-family: sans-serif; 
 }
+*{
+    margin: 0px;
+}
 .body{
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
     /* overflow: hidden; */
 }
+
 .container{
     overflow: hidden;
     width: 100%;
@@ -274,7 +278,15 @@
     
 }
 
-.posters img{
+/* .poster content:hover{
+    transform: ;
+} */
+.poster div::-webkit-scrollbar{
+    display: none;
+}
+
+
+#box img{
     /* margin: auto; */
     margin-right: 10px;
     object-fit: cover;
@@ -286,24 +298,66 @@
 	transition: .3s ease-in-out;
     height: 300px;
 }
-.poster img:hover{
+#box img:hover{
     -webkit-transform: scale(1);
 	transform: scale(1.2);
 }
-/* .poster content:hover{
-    transform: ;
-} */
-.content div::-webkit-scrollbar{
-    display: none;
+#box{
+    /* background-color: red; */
+    /* max-height: 300px; */
+    display: inline-flex;
+    /* flex-direction: row; */
+    /* overflow: auto; */
+    /* margin-bottom: 50px; */
+    /* width: fit-content; */
 }
 .content div{
     display: flex;
     overflow: auto;
     margin-bottom: 10px;
 }
+#tags div{
+    overflow: auto;
+    margin-bottom: 10px;
+     position: relative;
+    bottom: 9px;
+}
+#box{
+    /* width: 100%; */
+    display: inline-flex;
+    /* position: relative;
+    bottom: 45px; */
+    /* overflow: auto; */
+    /* margin-bottom: 30px; */
+}
+.genre_name{
+    color: white;
+    /* margin-bottom: 10px; */
+    font-weight: 400;
+    font-family: "Yu Gothic";
+    font-size: 20px;
+}
+
+.movie a{
+    /* display: flex; */
+    margin: 0px 0px 0px 0px;
+}
+
+
 .type .slide{
     color: rgb(32, 141, 184);
     margin-left: 5px;
+}
+
+.container4{
+    position: relative;
+    top: 2300px;
+    left: 50%;
+    visibility: hidden;
+}
+.open-popup{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
 }
 
 @media only screen and (max-width:1204px) {

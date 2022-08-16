@@ -17,7 +17,7 @@
     margin-top: 30px;
     /* padding: 20px; */
 }
-.with-img{
+#withImg{
     background-image: url(../images/breaking-bad.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -103,12 +103,12 @@
 .description{
     /* margin: 0px; */
     width: 50%;
-    height: 50px;
+    height: 10px;
     background-color: grey;
     background-image: linear-gradient(360deg,rgb(0, 0, 0) 10%,transparent);
     opacity: 0.3;
     position: absolute;
-    top: 61vh;
+    top: 60vh;
     /* position: fixed; */
     /* bottom: 110px; */
     padding-top: 100px;
@@ -199,6 +199,8 @@
 
 
 .aside{
+    display: flex;
+    justify-content: space-between;
     color: white;
     padding: 0px 10px 30px 30px;
 
@@ -328,6 +330,7 @@
     font-family: sans-serif;
     font-weight: 200;
     opacity: 0.8;
+    margin-right: 10px;
 }
 .one-episode h3{
     color: white;
@@ -389,6 +392,9 @@
     padding-right: 5%; */
     /* position: relative;
     bottom: 100px; */
+}
+.collections h1{
+    margin-bottom: 20px;
 }
 
 .card{
@@ -462,7 +468,7 @@
     justify-content: flex-end;
 }
 .thin3{
-    height: 1px;
+    height: 2px;
     border: 0;
     color: #333;
     background-color: white;
@@ -489,7 +495,7 @@
     .title{
         font-size: 20px;
     }
-    .with-img{
+    #withImg{
         height: 450px;
     }
     .content{
@@ -511,6 +517,9 @@
         position: absolute;
         top: 57vh;
         /* position: fixed; */
+    }
+    .aside{
+        display: block;
     }
     .container3{
         margin-top: 100px;
